@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Hero Section*/
+.hero {
+    background: url(../img/hero-bg.jpg) no-repeat center center/cover;
+}
+/*Nav section*/
+.nav-item {
+    a {
+        color: #fff;
+        text-align: center;
+        &:hover {
+            color: #fff;
+            background-color: #EE5108;
+            border-radius: 5px;
+        }
+    }
+}
+
+/* Hero content*/
+.hero-content {
+    text-align: center;
+    color: #fff;
+    padding: 11rem 0 15.4rem 0;
+    h1 {
+        font-weight: 400;
+        font-size: 55px;
+    }
+    .btn-main {
+        border: none;
+        color: #fff;
+        background-color: #EE5108;
+        border-radius: 50px;
+        padding: 6px 14px;
+        margin-top: 2rem;
+        &:hover {
+            background-color: #f35b15;
+        }
+    }
+}
+
+/*Cards section*/
+.cards {
+    text-align: center;
+    color: #3C3B3B;
+    margin-top: 45px;
+    .car {
+        margin-bottom: 70px;
+    }
+    img {
+        margin: 10px auto;
+    }
+
+    h3 {
+        font-size: 1.3rem;
+    }
+    .btn-main {
+        border: none;
+        color: #fff;
+        background-color: #EE5108;
+        border-radius: 50px;
+        padding: 6px 14px;
+        &:hover {
+            background-color: #f35b15;
+        }
+    }
+}
+
+/*About section*/
+.about {
+    color: #3C3B3B;
+}
+
+/*Cta section*/
+.cta {
+    background-color: #016F80;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+
+    .input-group {
+        margin: 30px auto;
+        width: 30%;
+    }
+
+    .form-control {
+        border-radius: 50px !important;
+        margin-right: -60px;
+    }
+
+    .btn-main {
+        border: none;
+        color: #fff;
+        background-color: #EE5108;
+        border-radius: 50px !important;
+        padding: 6px 14px;
+        z-index: 100;
+        &:hover {
+            background-color: #f35b15;
+        }
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .input-group {
+        display: flex;
+        flex-direction: column;
+
+        .form-control {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+    }
+  }
+
+/*Footer*/
+footer {
+    color: #fff;
+    background: #0D4750;
+    padding: 20px 0;
+    text-align: center;
+    .fa-facebook-f {
+        padding: 8px 5px;
+    }
+    a {
+        color: #fff;
+        background: #275B63;
+        padding: 8px 10px;
+        border-radius: 100px;
+        margin-left: 10px;
+        &:hover {
+            color: #fff;
+            background: #269CAE;
+        }
+    }
+}
